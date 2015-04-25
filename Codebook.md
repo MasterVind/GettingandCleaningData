@@ -36,7 +36,7 @@ Body acceleration signal in Y-axis, mean value in time domain.
 * tBodyAcc-mean()-Z   
 Body acceleration signal in Z-axis, mean value in time domain.
 
-* tGravityAcc-mean()-X   
+* tGravityAcc-mean()-X      
 Gravity acceleration signal in X-axis, mean value in time domain.
 
 * tGravityAcc-mean()-Y   
@@ -63,13 +63,13 @@ Signal from body gyroscope in Y-axis, mean value in time domain.
 * tBodyGyro-mean()-Z   
 Signal from body gyroscope in Z-axis, mean value in time domain.
 
-* tBodyGyroJerk-mean()-X
+* tBodyGyroJerk-mean()-X   
 Jerk signal from body gyroscope in X-axis, mean value in time domain.
 
-* tBodyGyroJerk-mean()-Y
+* tBodyGyroJerk-mean()-Y   
 Jerk signal from body gyroscope in Y-axis, mean value in time domain.
 
-* tBodyGyroJerk-mean()-Z
+* tBodyGyroJerk-mean()-Z   
 Jerk signal from body gyroscope in Z-axis, mean value in time domain.
 
 * tBodyAccMag-mean()   
