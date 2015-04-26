@@ -84,10 +84,10 @@ Magnitude of body acceleration Jerk signal, mean value in time domain.
 * tBodyGyroMag-mean()   
 Magnitude of body gyroscope signal, mean value in time domain.
 
-* tBodyGyroJerkMag-mean()   
+* tBodyGyroJerkMag-mean()     
 Magnitude of body gyroscope Jerk signal, mean value in time domain.
 
-* fBodyAcc-mean()-X   
+* fBodyAcc-mean()-X    
 Body acceleration signal in X-axis, mean value in frequency domain.
 
 * fBodyAcc-mean()-Y   
@@ -111,22 +111,30 @@ Body gyroscope signal in X-axis, mean value in frequency domain.
 * fBodyGyro-mean()-Y  
 Body gyroscope signal in X-axis, mean value in frequency domain.
 
-* fBodyGyro-mean()-Z
+* fBodyGyro-mean()-Z    
 Body gyroscope signal in Z-axis, mean value in frequency domain.
 
-* fBodyAccMag-mean()
+* fBodyAccMag-mean()    
 Magnitude of body acceleration signal in X-axis, mean value in frequency domain.
 
-* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-mean()     
 Magnitude of body acceleration signal in Y-axis, mean value in frequency domain.
 
-* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-mean()     
 Magnitude of body acceleration signal in Z-axis, mean value in frequency domain.
 
-* fBodyBodyGyroJerkMag-mean()
-* tBodyAcc-std()-X
-* tBodyAcc-std()-Y
+* fBodyBodyGyroJerkMag-mean()     
+Magnitude of body gyroscope Jerk signal, mean value in frequency domain.
+
+* tBodyAcc-std()-X   
+Body acceleration signal in X-axis, standard deviation in time domain. 
+
+* tBodyAcc-std()-Y   
+Body acceleration signal in Y-axis, standard deviation in time domain. 
+
 * tBodyAcc-std()-Z
+Body acceleration signal in Z-axis, standard deviation in time domain. 
+
 * tGravityAcc-std()-X
 * tGravityAcc-std()-Y
 * tGravityAcc-std()-Z
