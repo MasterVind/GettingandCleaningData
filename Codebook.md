@@ -96,29 +96,65 @@ Body acceleration signal in Y-axis, mean value in frequency domain.
 * fBodyAcc-mean()-Z  
 Body acceleration signal in Z-axis, mean value in frequency domain.
 
-* fBodyAcc-meanFreq()-X
-Body acceleration signal in Z-axis, mean value in frequency domain.
+* fBodyAccJerk-mean()-X   
+Body acceleration Jerk signal in X-axis, mean value in frequency domain.
 
+* fBodyAccJerk-mean()-Y   
+Body acceleration Jerk signal in Y-axis, mean value in frequency domain.
 
-* fBodyAcc-meanFreq()-Y
-* fBodyAcc-meanFreq()-Z
-* fBodyAccJerk-mean()-X
-* fBodyAccJerk-mean()-Y
-* fBodyAccJerk-mean()-Z
-* fBodyAccJerk-meanFreq()-X
-* fBodyAccJerk-meanFreq()-Y
-* fBodyAccJerk-meanFreq()-Z
-* fBodyGyro-mean()-X
-* fBodyGyro-mean()-Y
+* fBodyAccJerk-mean()-Z   
+Body acceleration Jerk signal in Z-axis, mean value in frequency domain.
+
+* fBodyGyro-mean()-X  
+Body gyroscope signal in X-axis, mean value in frequency domain.
+
+* fBodyGyro-mean()-Y  
+Body gyroscope signal in X-axis, mean value in frequency domain.
+
 * fBodyGyro-mean()-Z
-* fBodyGyro-meanFreq()-X
-* fBodyGyro-meanFreq()-Y
-* fBodyGyro-meanFreq()-Z
+Body gyroscope signal in Z-axis, mean value in frequency domain.
+
 * fBodyAccMag-mean()
-* fBodyAccMag-meanFreq()
+Magnitude of body acceleration signal in X-axis, mean value in frequency domain.
+
 * fBodyBodyAccJerkMag-mean()
-* fBodyBodyAccJerkMag-meanFreq()
+Magnitude of body acceleration signal in Y-axis, mean value in frequency domain.
+
 * fBodyBodyGyroMag-mean()
-* fBodyBodyGyroMag-meanFreq()
-* fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-meanFreq()" "tBodyAcc-std()-X" "tBodyAcc-std()-Y" "tBodyAcc-std()-Z" "tGravityAcc-std()-X" "tGravityAcc-std()-Y" "tGravityAcc-std()-Z" "tBodyAccJerk-std()-X" "tBodyAccJerk-std()-Y" "tBodyAccJerk-std()-Z" "tBodyGyro-std()-X" "tBodyGyro-std()-Y" "tBodyGyro-std()-Z" "tBodyGyroJerk-std()-X" "tBodyGyroJerk-std()-Y" "tBodyGyroJerk-std()-Z" "tBodyAccMag-std()" "tGravityAccMag-std()" "tBodyAccJerkMag-std()" "tBodyGyroMag-std()" "tBodyGyroJerkMag-std()" "fBodyAcc-std()-X" "fBodyAcc-std()-Y" "fBodyAcc-std()-Z" "fBodyAccJerk-std()-X" "fBodyAccJerk-std()-Y" "fBodyAccJerk-std()-Z" "fBodyGyro-std()-X" "fBodyGyro-std()-Y" "fBodyGyro-std()-Z" "fBodyAccMag-std()" "fBodyBodyAccJerkMag-std()" "fBodyBodyGyroMag-std()" "fBodyBodyGyroJerkMag-std()"
+Magnitude of body acceleration signal in Z-axis, mean value in frequency domain.
+
+* fBodyBodyGyroJerkMag-mean()
+* tBodyAcc-std()-X
+* tBodyAcc-std()-Y
+* tBodyAcc-std()-Z
+* tGravityAcc-std()-X
+* tGravityAcc-std()-Y
+* tGravityAcc-std()-Z
+* tBodyAccJerk-std()-X
+* tBodyAccJerk-std()-Y
+* tBodyAccJerk-std()-Z
+* tBodyGyro-std()-X
+* tBodyGyro-std()-Y
+* tBodyGyro-std()-Z
+* tBodyGyroJerk-std()-X
+* tBodyGyroJerk-std()-Y
+* tBodyGyroJerk-std()-Z
+* tBodyAccMag-std()
+* tGravityAccMag-std()
+* tBodyAccJerkMag-std()
+* tBodyGyroMag-std()
+* tBodyGyroJerkMag-std()
+* fBodyAcc-std()-X
+* fBodyAcc-std()-Y
+* fBodyAcc-std()-Z
+* fBodyAccJerk-std()-X
+* fBodyAccJerk-std()-Y
+* fBodyAccJerk-std()-Z
+* fBodyGyro-std()-X
+* fBodyGyro-std()-Y
+* fBodyGyro-std()-Z
+* fBodyAccMag-std()
+* fBodyBodyAccJerkMag-std()
+* fBodyBodyGyroMag-std()
+* fBodyBodyGyroJerkMag-std()"
 
