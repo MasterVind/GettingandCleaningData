@@ -41,9 +41,11 @@ merged_data <- rbind(test_data, train_data)
 ### and labels appropriately the data set with descriptive variable names.
 colnames(merged_data) <- c("subject_id", "activity_id", feature_info)
 merged_data <- merged_data[, !duplicated(names(merged_data))];
-merged_data <- select(merged_data, 
-                      c(1, 2, grep("mean()", names(merged_data)), grep("std()", names(merged_data)))
-                      ) ;
+merged_data <- select(merged_data, c(1, 2, contains("mean()"), contains("std()"))) ;
+## The above one line could be replaced with the following immediate line
+## merged_data <- select(merged_data, 
+##                      c(1, 2, grep("mean()", names(merged_data)), grep("std()", names(merged_data)))
+##                      ) ;
 
 ### Step 3: Use descriptive activity names to name the activities in the data set
 act_info <- read.table("activity_labels.txt");
@@ -58,5 +60,5 @@ merged_data_summary <-  group_by(merged_data, subject_id, activity_id) %>%
 
 ### Save result to text file
 print("Writing processed data into files of merged_data.txt and merged_data_summary.txt")
-write.table(merged_data, file = "merged_data.txt", row.names = FALSE) ;
-write.table(merged_data_summary, file = "merged_data_summary.txt", row.names = FALSE) ;
+write.table(merged_data, file = "merged_data.txt", row.names = FALSE, sep = "\t") ;
+write.table(merged_data_summary, file = "merged_data_summary.txt", row.names = FALSE, sep = "\t") ;
